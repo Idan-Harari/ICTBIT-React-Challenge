@@ -59,31 +59,6 @@ Component should display the user's username.
 - Ensure that the first letter of the username is capital, and that rest of the letter are lowercase.
 - Changes in the user's name and age should be automatically reflected in this component utilizing MobX reactivity.
 
-# MongoDB/Mongoose
-
-## Task 1
-
-Write a simple Mongoose user schema.
-
-## Task 1 Details
-
-- Schema properties should match the `UserModel` from above.
-- Ensure that timestamps will be recorded.
-- This code will not be executed, but should be valid.
-- A starter file is located at `~/userModel.js`. Fix and finish the code.
-
-## Task 2
-
-- Write a simple function that demonstrates how to find and update a user model.
-
-### Task 2 Details
-
-- A starter function is in the `~/updateCurrentUser.js file`. Fix and finish the code.
-- This code should utilize the user schema you wrote in Task 1.
-- Assume the user ID is given to you.
-- If no DB document is found, create a new one.
-- Return the new document after update.
-- This code will not be executed, but should be valid.
 
 # Notes
 
